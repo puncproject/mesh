@@ -1,4 +1,5 @@
-rp = 0.000145;
+//rp = 0.000145; // SI units
+rp = 1; 
 ro = 10.*rp;
 reso = ro/5.;
 resp = rp/5.;
