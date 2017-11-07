@@ -1,7 +1,7 @@
 //rp = 0.000145; // SI units [m]
 rp = 1; // normalized to probe radius
-ro = 10.*rp;
-reso = ro/5.;
+ro = 20.*rp;
+reso = ro/20.;
 resp = rp/5.;
 
 Point(1) = {ro, ro, 0, resp};
