@@ -1,6 +1,7 @@
-# mesh
-Unstructed meshes for use in simulations with e.g. PUNC, PUNC++ or PTetra.
+# Mesh
+Unstructed gmsh meshes for use in simulations with e.g. PUNC, PUNC++ or PTetra.
 
+## Naming conventions
 The naming convention for the meshes are chosen to be unusually verbose since otherwise it has proven hard to remember exactly what each mesh is. The meshes are subdivided by folders into 1D, 2D and 3D meshes. In addition, some meshes may be 2D surfaces embedded in a 3D mesh. These are in the subfolder `surface`. The naming convention for the files is
 
 ```
@@ -11,3 +12,7 @@ where `<something>` refers to what's inside the domain, e.g. "four circles", a "
 `<some_exterior_boundary>` is, obviously, the shape of the exterior boundary (e.g. a cube). If it is periodic, this should be indicated (e.g. `periodic_cube`).
 
 Meshes which have different resolutions but which are otherwise identical may be suffixed by `_res` and a number, the higher the number the finer the resolution. 
+
+## Mesh conventions
+- Physical groups should be defined for the boundaries and interiors
+- The exterior boundary should be the first physical group of its dimensionality. I.e. in a 3D mesh with an exterior and interior boundary, the exterior boundary may be physical surface 34 as long as the physical surface on the interior boundary is higher than 34.
