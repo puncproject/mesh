@@ -1,6 +1,6 @@
 //rp = 0.000145; // SI units [m]
 rp = 1; // normalized to probe radius
-ro = 20.*rp;
+ro = 10.*rp;
 reso = ro/20.;
 resp = rp/5.;
 
