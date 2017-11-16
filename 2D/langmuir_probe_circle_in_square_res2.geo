@@ -1,7 +1,7 @@
 rp = 1; // normalized to probe radius
 ro = 133;
-reso = 23;
-resp = 0.15;
+reso = 18;
+resp = 0.2;
 
 Point(1) = {ro, ro, 0, resp};
 
