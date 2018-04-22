@@ -1,7 +1,7 @@
 ro = 1;			// outer radius
 ri = 0.2;		// inner radius
-reso = 0.1;		// outer resolution
-resi = 0.02;	// inner resolution
+reso = 0.4;		// outer resolution
+resi = reso/5;	// inner resolution
 
 // Center
 Point(1) = {0, 0, 0, reso};
