@@ -41,3 +41,6 @@ Plane Surface(20) = {19};
 
 Periodic Line {4,12} = {6,8};
 Periodic Line {1,5} = {11,9};
+
+Physical Line(1) = {12, 4, 1, 5, 6, 8, 9, 11};
+Physical Surface(2) = {14, 20, 18, 16};
