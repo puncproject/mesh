@@ -1,6 +1,6 @@
 ro = 100;   // outer radius
 ri = 10;    // inner radius
-reso = 2.0; // outer resolution
+reso = 6.0; // outer resolution
 resi = 1.0; // inner resolution
 
 // Center
